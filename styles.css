@@ -1,0 +1,218 @@
+body {
+    background-image: url(img/kcifer-tubos-industriais.jpg);
+    background-size: 1280px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    bottom: 340px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02111B;
+}
+
+li {
+    float: right;
+    text-align: center;
+}
+
+li a {
+    font-family: Georgia;
+    display: inline-block;
+    color: #FCFCFC;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+    position: static;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: white;
+    color: #02111B;
+}
+
+.toptxt {
+    text-align: center;
+    position: absolute;
+    bottom: 500px;
+    left: 700px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px black;
+}
+
+.toptxt1 {
+    text-align: center;
+    position: absolute;
+    bottom: 470px;
+    left: 720px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.topimage {
+    background: center top;
+    background-attachment: scroll;
+    border-radius: 5px;
+    position: static;
+    margin-left: 400px;
+    height: 230px;
+}
+
+.fachada {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.faxadatxt {
+    position: absolute;
+    bottom: -1px;
+    left: 25%;
+    text-align: center;
+    color: white;
+    background-color: #02111B;
+    border-radius: 10px;
+}
+
+.divisorias {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02111B;
+    margin-top: 150px;
+}
+
+.txtdiv {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.coluna1 {
+    column-count: 1;
+    margin-left: 25px;
+}
+
+.imgcoluna1 {
+    height: 290px;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+
+div.galeria {
+    margin: 5px;
+    margin-top: 30px;
+    margin-left: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    width: 400px;
+}
+
+div.galeria:hover {
+    transition: 500ms;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: #02111B;
+    background-color: white;
+}
+
+.wpp {
+    position: fixed;
+    left: 20px;
+    bottom: 120px;
+    width: 80px;
+}
+
+footer {
+    background-color: #02111B;
+    color: white;
+    margin: 0;
+    margin-top: 550px;
+    margin-left: 8px;
+    height: auto;
+    width: 1280px;
+    padding: 0;
+}
+
+.imgfooter {
+    width: 80px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        display: none;
+    }
+    .divisorias {
+        margin: 0;
+        padding: 0;
+    }
+    .toptxt {
+        text-align: center;
+        position: absolute;
+        bottom: 500px;
+        left: 300px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 3px black;
+    }
+    .toptxt1 {
+        text-align: center;
+        position: absolute;
+        bottom: 470px;
+        left: 320px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    }
+    .topimage {
+        position: static;
+        margin-left: 15px;
+        height: 230px;
+    }
+    .fachada {
+        display: none;
+    }
+    .faxadatxt {
+        display: none;
+    }
+    .imgcoluna1 {
+        height: 290px;
+        margin-left: 120px;
+        padding-top: 10px;
+    }
+    footer {
+        margin-top: 1550px;
+        margin-left: 8px;
+        width: auto;
+    }
+    .wpp {
+        bottom: 130px;
+    }
+    div.galeria {
+        margin: 5px;
+        margin-top: 30px;
+        margin-left: 85px;
+        border: 2px solid rgb(255, 255, 255);
+        float: left;
+        width: 400px;
+    }
+}
