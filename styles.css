@@ -174,9 +174,9 @@ footer {
         display: none;
     }
     .topimage {
-        position: static;
-        margin-left: 20%;
-        height: 200px;
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
     }
     .fachada {
         display: none;
@@ -185,7 +185,7 @@ footer {
         display: none;
     }
     .imgcoluna1 {
-        height: 290px;
+        height: 50%;
         margin-left: 0;
     }
     footer {
