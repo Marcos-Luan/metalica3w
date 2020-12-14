@@ -189,7 +189,9 @@ footer {
         margin-left: 0;
     }
     footer {
-        display: none;
+        margin-top: auto;
+        position: relative;
+        width: auto;
     }
     .imgfooter {
         display: none;
