@@ -159,7 +159,7 @@ footer {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     ul {
         display: none;
     }
@@ -168,24 +168,14 @@ footer {
         padding: 0;
     }
     .toptxt {
-        text-align: center;
-        position: absolute;
-        bottom: 500px;
-        left: 300px;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 3px black;
+        display: none;
     }
     .toptxt1 {
-        text-align: center;
-        position: absolute;
-        bottom: 470px;
-        left: 320px;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        display: none;
     }
     .topimage {
         position: static;
-        margin-left: 15px;
+        margin-left: 30%;
         height: 230px;
     }
     .fachada {
@@ -196,13 +186,16 @@ footer {
     }
     .imgcoluna1 {
         height: 290px;
-        margin-left: 120px;
-        padding-top: 10px;
+        margin-left: 20%;
     }
     footer {
-        margin-top: 1550px;
+        margin-top: auto;
+        padding-top: 1550px;
         margin-left: 8px;
         width: auto;
+    }
+    .imgfooter {
+        display: none;
     }
     .wpp {
         bottom: 130px;
