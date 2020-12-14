@@ -145,22 +145,11 @@ footer {
     background-color: #02111B;
     color: white;
     margin: 0;
-    margin-top: 550px;
     margin-left: 8px;
     height: auto;
     width: 1280px;
     padding: 0;
-}
-
-.footer1 {
-    background-color: #02111B;
-    color: white;
-    margin: 0;
-    margin-top: auto;
-    margin-left: 8px;
-    height: auto;
-    width: 1280px;
-    padding: 0;
+    position: static;
 }
 
 .imgfooter {
@@ -170,7 +159,7 @@ footer {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     ul {
         display: none;
     }
@@ -212,11 +201,6 @@ footer {
     }
     footer {
         margin-top: 1550px;
-        margin-left: 8px;
-        width: auto;
-    }
-    .footer1 {
-        margin-top: auto;
         margin-left: 8px;
         width: auto;
     }
