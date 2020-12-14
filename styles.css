@@ -189,10 +189,7 @@ footer {
         margin-left: 0;
     }
     footer {
-        margin-top: auto;
-        padding-top: 0px;
-        margin-left: 8px;
-        width: auto;
+        display: none;
     }
     .imgfooter {
         display: none;
@@ -206,6 +203,6 @@ footer {
         margin-left: 85px;
         border: 2px solid rgb(255, 255, 255);
         float: left;
-        width: 400px;
+        width: 200px;
     }
 }
